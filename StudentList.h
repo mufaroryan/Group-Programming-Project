@@ -21,8 +21,8 @@ class StudentList{
 
     public:
       StudentList();
-      void addStudent (Studnet s);
+      void addStudent (Student s);
       Studnet* searchStudent(int id);
-      void displayStudnets();
+      void displayStudents();
 };
 #endif
