@@ -34,3 +34,14 @@ Student * StudentList::searchStudent(int id){
   }
   return nullptr;
 }
+
+void StudentList::displayStudents(){
+  Node * current = head;
+  while (current != nullptr){
+    cout << current->data.id << " "
+         << current->data.name << " "
+         << current->data.major << " "
+         << current->data.gpa << endl;
+    current = current->next;
+  }
+}
