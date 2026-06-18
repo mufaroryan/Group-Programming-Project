@@ -22,3 +22,15 @@ void StudentList::addStudent(Student s){
     current->next = newNode;
   }
 }
+
+Student * StudentList::searchStudent(int id){
+  Node * current = head;
+  while (current != nullptr)
+  {
+    if (current->data.id == id){
+      return &(current->data);
+    }
+    current = current->next;
+  }
+  return nullptr;
+}
