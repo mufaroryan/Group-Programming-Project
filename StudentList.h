@@ -22,7 +22,7 @@ class StudentList{
     public:
       StudentList();
       void addStudent (Student s);
-      Studnet* searchStudent(int id);
+      Student* searchStudent(int id);
       void displayStudents();
 };
 #endif
