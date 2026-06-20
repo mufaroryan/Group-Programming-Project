@@ -2,10 +2,10 @@
 #define STUDENTLIST_H
 
 #include <string>
-using namesapce std;
+using namespace std;
 struct Student{
   int id;
-  stirng name;
+  string name;
   string major;
   float gpa;
 };
