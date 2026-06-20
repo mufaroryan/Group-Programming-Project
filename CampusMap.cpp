@@ -135,4 +135,3 @@ void CampusMap::countObjects()
     cout << "Libraries: " << libraries << endl;
     cout << "Parking Lots: " << parkingLots << endl;
     cout << "Blocked Areas: " << blocked << endl;
-}
